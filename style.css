@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline;
+	font-size: 20px;
+	font-family: 'syne mono',cursive;
+	border-radius: 10px;
+	position: relative;
+	left: 400px;
+	padding: 0 20px;
+	cursor: pointer;
+}
+
+nav ul h1{
+	font-family: 'Roboto Mono', monospace;
+	width: 200px;
+	position: relative;
+	top: 28px;
+	left: 100px;
+	cursor: pointer;
+}
+
+nav ul li:hover{
+	background-color: black;
+	color: white;
+	transition: 0.5s;
+}
